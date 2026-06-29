@@ -12,10 +12,10 @@ A deep learning pipeline that predicts high-risk pedestrian–vehicle interactio
 
 | Model | Precision | Recall | F1 | ROC-AUC | Accuracy |
 |-------|-----------|--------|----|---------|----------|
-| Logistic Regression (baseline) | — | — | — | — | — |
+| Logistic Regression (baseline) | 0.38 | 0.72 | 0.50 | 0.891 | 88.1% |
 | **Two-layer GRU (ours)** | **0.59** | **1.00** | **0.74** | **0.998** | **95.2%** |
 
-**Confusion matrix (test set):**
+**Confusion matrix (test set — GRU):**
 
 |  | Pred Safe | Pred Risky |
 |--|-----------|------------|
@@ -110,7 +110,7 @@ Conflict heatmaps show *where* dangerous interactions concentrate — directly a
 
 Open in Google Colab — the notebook auto-installs dependencies and downloads the DUT dataset.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aabuessa/pedestrian-vehicle-conflict-prediction/blob/main/urbcomp_project_complete__1_.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aabuessa/pedestrian-vehicle-conflict-prediction/blob/main/urbcomp_project_complete.ipynb)
 
 **Requirements** (auto-installed):
 - PyTorch
