@@ -2,7 +2,6 @@
 
 A deep learning pipeline that predicts high-risk pedestrian–vehicle interactions **0.5 seconds in advance** at unsignalized crossings, using drone-extracted trajectory data and a two-layer GRU model.
 
-**Course:** CSCI-SHU 205: Urban Computing — NYU Shanghai, Spring 2026  
 **Authors:** Ahmed Abu Eisa (ML Developer), Emma Zhang (Data Specialist), Zicheng Huang (Math Validation) 
 **Supervisor:** Prof. Zhaonan Wang
 
